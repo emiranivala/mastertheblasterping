@@ -1,12 +1,12 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "22642292"))
-API_HASH = getenv("API_HASH", "4502d35191a2fcb02c8467f54789f0ea")
+API_ID = int(getenv("API_ID", "27134561"))
+API_HASH = getenv("API_HASH", "fa3c15f5ed4e3226ce9a929e4b9b2806")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "922270982").split()))
 MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "-1002493565037")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002329264016"))
+LOG_GROUP = getenv("LOG_GROUP", "-1002293309406")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002433933366"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "20"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500000000000000000"))
 WEBSITE_URL = getenv("WEBSITE_URL", None)
